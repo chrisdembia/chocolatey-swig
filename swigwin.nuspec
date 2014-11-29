@@ -3,7 +3,7 @@
   <metadata>
     <id>swig</id>
     <title>swig</title>
-    <version>3.0.0</version>
+    <version>3.0.2</version>
     <authors>David M. Beazley, William Fulton</authors>
     <owners>kylewm</owners>
     <summary>A code generator for connecting C/C++ with other programming languages</summary>
