@@ -1,4 +1,5 @@
 $packageName = 'swig'
-$ZipFileName = 'swigwin-3.0.5.zip'
+$ZipFileName = "swigwin-$version.zip"
+$version = '3.0.6'
 
 UnInstall-ChocolateyZipPackage $packageName $ZipFileName
