@@ -1,0 +1,9 @@
+build_script:
+  - choco pack
+  - dir
+  
+test_script:
+  - choco install swig -source %cd%
+  
+after_test:
+  - appveyor PushArtifact swig.nupkg
