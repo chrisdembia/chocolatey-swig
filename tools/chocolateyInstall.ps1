@@ -1,6 +1,6 @@
 $packageName = 'swig'
-$url = "http://downloads.sourceforge.net/project/swig/swigwin/swigwin-$version/swigwin-$version.zip?r=&ts=1394566398&use_mirror=softlayer-ams"
+$url = "http://downloads.sourceforge.net/project/swig/swigwin/swigwin-$version/swigwin-$version.zip"
 $toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$version = '3.0.6'
+$version = '3.0.8'
 
 Install-ChocolateyZipPackage $packageName $url $toolsDir
