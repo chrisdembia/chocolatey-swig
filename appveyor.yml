@@ -3,7 +3,7 @@ build_script:
   - dir
   
 test_script:
-  - choco install swig -Version 3.0.12 -source %cd%
+  - choco install swig -Version 3.0.9 -source %cd%
   
 after_test:
-  - appveyor PushArtifact swig.3.0.12.nupkg
+  - appveyor PushArtifact swig.3.0.9.nupkg
