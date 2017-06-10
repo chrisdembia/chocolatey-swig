@@ -3,7 +3,7 @@
     <metadata>
         <id>swig</id>
         <version>3.0.12</version>
-        <title>SWIG: Generate scripting interfaces to C/C++ code</title>
+        <title>SWIG</title>
         <authors>David M. Beazley,William Fulton</authors>
         <owners>kylewm</owners>
         <licenseUrl>http://www.swig.org/legal.html</licenseUrl>
